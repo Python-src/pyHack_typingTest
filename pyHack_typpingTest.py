@@ -5,6 +5,7 @@ from webbot import Browser
 import time
 
 pytesseract.pytesseract.tesseract_cmd = 'D:/Programmes/Tesseract/tesseract.exe'
+#need to dowload pytesseract
 web = Browser()
 web.go_to('https://10fastfingers.com/typing-test/english')
 time.sleep(6)
